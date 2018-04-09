@@ -1,8 +1,7 @@
 module.exports = {
   parser: "babel-eslint",
-  extends: ["airbnb", "prettier", "prettier/flowtype", "prettier/react"],
+  extends: ["airbnb", "prettier", "prettier/react"],
   plugins: [
-    "flowtype",
     "prettier",
     "react",
     "jsx-a11y",
@@ -15,8 +14,6 @@ module.exports = {
   },
   rules: {
     "prettier/prettier": "error",
-    "flowtype/define-flow-type": 1,
-    "flowtype/use-flow-type": 1,
     "no-use-before-define": 0,
     "global-require": 0,
     "linebreak-style": 0,
