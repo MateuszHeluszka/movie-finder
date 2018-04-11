@@ -59,24 +59,27 @@
 
 .search-details__content {
   max-width: 800px;
+  width: 100%;
 }
 .search-details__content p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 100%;
+  line-height: 1.5;
   margin-top: 0;
 }
 
 .search-details__content p strong {
-  width: 30%;
+  width: 50%;
   text-transform: uppercase;
   font-size: 20px;
   letter-spacing: .1em;
+  text-align: right;
+  padding-right: 20px;
 }
 
 .search-details__content p span {
-  width: 70%;
+  width: 50%;
 }
 
 .search-details__backdrop {
