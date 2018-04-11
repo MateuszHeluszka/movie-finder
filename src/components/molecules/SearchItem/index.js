@@ -41,7 +41,9 @@ export default class SearchItem extends React.Component {
           {this.state.error === false &&
             this.props.poster_path !== null && (
               <img
-                src={`http://image.tmdb.org/t/p/w500/${this.props.poster_path}`}
+                src={`https://image.tmdb.org/t/p/w500/${
+                  this.props.poster_path
+                }`}
                 onLoad={this._handleImageLoaded}
                 onError={this._handleImageError}
                 alt="poster"

@@ -59,7 +59,7 @@ export default class SearchDetails extends React.Component {
             <div className="search-details__top">
               {this.state.data.backdrop_path !== null && (
                 <img
-                  src={`http://image.tmdb.org/t/p/original/${
+                  src={`https://image.tmdb.org/t/p/original/${
                     this.state.data.backdrop_path
                   }`}
                   onLoad={this._handleImageLoaded}
