@@ -8,6 +8,10 @@ export default props => (
     {props.loading === true && (
       <img src={loader} className="loader" alt="Loader" />
     )}
-    <Input onChange={props.onChange} value={props.value} />
+    <Input
+      placeholder="Type text to find movie..."
+      onChange={props.onChange}
+      value={props.value}
+    />
   </section>
 );
