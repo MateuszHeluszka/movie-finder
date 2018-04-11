@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link changes the class when hovered 1`] = `
+<section
+  className="Search"
+>
+  <section
+    className="SearchBar"
+  >
+    <input
+      onChange={[Function]}
+      type="search"
+      value=""
+    />
+  </section>
+</section>
+`;

@@ -1,0 +1,16 @@
+.input {
+  width: 100%;
+  background: transparent;
+  height: 50px;
+  outline: 0;
+  border-width: 0;
+  border-bottom: 1px solid #222;
+  color: #ccc;
+  font-weight: 300;
+  font-size: 24px;
+  transition: .2s ease-in-out;
+}
+
+.input:focus {
+  border-bottom-color: #999;
+}
