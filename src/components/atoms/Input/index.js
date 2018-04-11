@@ -4,6 +4,7 @@ import './Input.css';
 
 const Input = props => (
   <input
+    {...props}
     className="input"
     onChange={props.onChange}
     value={props.value}
