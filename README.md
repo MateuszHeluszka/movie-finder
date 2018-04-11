@@ -1,4 +1,7 @@
 # Movie Finder
+
+## Demo
+[Live demo here](https://movie-finder.creat.pl/)
 ## Installation
 1. Run `yarn` or `npm install` in root directory
 2. Save .env.example as .env and fill api data.
