@@ -15,4 +15,12 @@
 
 .search-results li {
   width: 25%;
+  position: relative;
+}
+
+.search-results li:before {
+  /* handle 1:1 ratio */
+  content: '';
+  display: block;
+  padding-top: 100%;
 }

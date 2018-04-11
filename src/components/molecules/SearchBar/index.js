@@ -9,7 +9,7 @@ export default props => (
       <img src={loader} className="loader" alt="Loader" />
     )}
     <Input
-      placeholder="Type text to find movie..."
+      placeholder="Type text to find a movie..."
       onChange={props.onChange}
       value={props.value}
     />
