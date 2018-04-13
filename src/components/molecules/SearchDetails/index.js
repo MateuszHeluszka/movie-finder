@@ -11,6 +11,8 @@ export default class SearchDetails extends React.Component {
   };
 
   componentWillReceiveProps(nextProps) {
+    /* eslint-disable */
+    console.log(nextProps.details);
     if (nextProps.details.visible !== this.state.visible) {
       this.setState({
         visible: nextProps.details.visible,

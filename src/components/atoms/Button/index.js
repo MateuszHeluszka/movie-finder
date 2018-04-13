@@ -10,10 +10,12 @@ const Button = props => (
 
 Button.propTypes = {
   onClick: PropTypes.func,
+  className: PropTypes.string,
 };
 
 Button.defaultProps = {
   onClick: undefined,
+  className: 'button',
 };
 
 export default Button;
